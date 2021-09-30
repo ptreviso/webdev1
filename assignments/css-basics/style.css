@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background:#008b8b;
+    color: white;
+}
+header {
+    max-width: 50rem;
+    margin: 0 auto;
+    background: #56cdeb6c;
+    text-align: center;
+    padding: 1rem;
+}
+header h1 {
+    margin-top: 0;
+}
+nav a{
+    background:coral;
+    color:white;
+    font-weight: 500;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
+nav a:hover {
+    color: rgb(156, 125, 0);
+}
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    background: #ffc0cba4;
+    padding: 0 .25rem;
+}
+
+section {
+    margin: 2rem 0;
+    border-left: .5rem solid rgb(55, 73, 52);
+    
+}
+
+section h3 {
+    background: hsl(40, 75%, 77%);
+    color: white;
+    margin: 0;
+    padding: 1rem;
+
+}
+
+section p {
+    background: #479e81;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 50%rem;
+}
+footer {
+    text-align: center;
+    background: hsl(129, 25%, 44%);
+    color: white;
+    padding: 2rem;
+}
