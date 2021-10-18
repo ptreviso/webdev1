@@ -1,12 +1,12 @@
 body {
 background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(237,128,39,1) 100%); 
-}
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(237,128,39,1) 100%); }
 
 img {
     margin: 0em;
     max-width: 50%;
 }
+{
 
-
-
+background-image: url("images/sunset.jpg");
+}
