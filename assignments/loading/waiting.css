@@ -1,0 +1,45 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background: #222;
+    color: #eee;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.animation {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(4);
+}
+
+.circle {
+ border: 2px solid red;
+ border-top: 2px solid lightgrey;
+ border-radius: 50%;
+ position: absolute;
+ animation: spin 5s infinite;
+ transform: translate(-50%, -50%);
+}
+
+.a {width: 2rem; height: 1rem; animation-delay: 0s;}
+.b {width: 2rem; height: 2rem; animation-delay: .1s;}
+.c {width: 2rem; height: 3rem; animation-delay: .2s;}
+.d {width: 2rem; height: 4rem; animation-delay: .3s;}
+.e {width: 2rem; height: 5rem; animation-delay: .4s;}
+
+
+@keyframes spin {
+   0% {transform: translate( -50%, -50%) rotateX(0) rotateY(0) rotateZ(0);}
+    10% {transform: translate( -50%, -50%) rotateX(0) rotateY(0) rotateZ(0);}
+    30% {transform: translate( -50%, -50%) rotateX(0) rotateY(180deg) rotateZ(0);}
+    50%{transform: translate( -50%, -50%) rotateX(180deg) rotateY(360deg) rotateZ(0);}
+    70% {transform: translate( -50%, -50%) rotateX(180deg) rotateY(360deg) rotateZ(360deg);}   
+    80% {transform: translate( -50%, -50%) rotateX(180deg) rotateY(360deg) rotateZ(360deg);}       
+   100% {transform: translate( -50%, -50%) rotateX(0) rotateY(0) rotateZ(0);}
+}
+
