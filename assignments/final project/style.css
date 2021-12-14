@@ -26,6 +26,7 @@ h1 {
     letter-spacing: .5em;
     text-transform: capitalize;
 }
+
 nav ul{
     list-style: none;
    text-align: right;
@@ -48,7 +49,18 @@ nav a {
     letter-spacing: .2em;
     text-transform: none;
     line-height: 3.1em;
-    color:black;
+    color:coral;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: coral;
+}
+
+p {
+  justify-content: center;
 }
 
 
@@ -98,6 +110,11 @@ nav a {
     width: 100%;
   }
   
+  .two-across , .three-across{
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 1em;
+}
  
   
   @media (max-width: 768px) {
@@ -134,4 +151,10 @@ nav a {
     .gallery {
       grid-template-columns: 6fr;
     }
+
+    .two-across , .three-across{
+      flex-grow: 1;
+      flex-basis: 50%;
+      padding: 1em;
+}
   }
