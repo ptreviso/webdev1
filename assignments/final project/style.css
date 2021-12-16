@@ -60,8 +60,11 @@ h2 {
 }
 
 p {
-  justify-content: center;
+  position: relative;
+  width: 400px;
+  height: 400px;
 }
+
 
 
   .image-card {
@@ -111,6 +114,7 @@ p {
   }
   
   .two-across , .three-across{
+    text-align: center;
     flex-grow: 1;
     flex-basis: 50%;
     padding: 1em;
@@ -152,9 +156,7 @@ p {
       grid-template-columns: 6fr;
     }
 
-    .two-across , .three-across{
-      flex-grow: 1;
-      flex-basis: 50%;
-      padding: 1em;
+    
+
 }
-  }
+  
